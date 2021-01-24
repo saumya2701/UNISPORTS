@@ -1,0 +1,9 @@
+.floating{
+    display: inline-block;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+}
+.btnstyle{
+    width: 100%;
+}

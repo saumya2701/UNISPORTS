@@ -1,0 +1,27 @@
+.outborder{
+    border:1px solid #dcdcdc;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+}
+.outborder .img{
+    width: 300px;
+    max-width: 100%;
+}
+img{
+    width: 100%;
+}
+.contentstyle{
+    padding-left: 30px;
+}
+.contentstyle h3{
+color:#337ab7
+}
+.contentstyle ul li{
+transition: all 1s ease-in-out;
+-webkit-transition: all 1s ease-in-out;
+}
+.contentstyle ul li:hover {
+    transform: translate(2em,0);
+    -webkit-transform: translate(2em,0);
+  }
