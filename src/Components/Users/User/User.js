@@ -12,7 +12,7 @@ const user = (props) => {
             <CardImg top width="100%" src={props.userInfo.avatar_url} alt="Card image cap" />
             <CardBody>
                 <CardTitle tag="h5">{props.userInfo.login}</CardTitle>
-                <Button  color="info" onClick={() => props.userSelectHandler(props.userInfo.id)} className = {cardstyle.btnstyle}>Button</Button>
+                <Button  color="info" onClick={() => props.userSelectHandler(props.userInfo.id)} className = {cardstyle.btnstyle}>More Info</Button>
             </CardBody>
         </Card>
         </div>
